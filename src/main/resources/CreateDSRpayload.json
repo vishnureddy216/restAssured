@@ -1,0 +1,20 @@
+{
+  "name": "DYNAMIC_ROOM_NAME",
+  "entity_id": "684fd8e49a55a50394c163db",
+  "company_domain": null,
+  "entity_logo": null,
+  "cloneable": null,
+  "room_id": null,
+  "entity_type": "OPPORTUNITY",
+  "content_type": null,
+  "show_team_section": true,
+  "enable_mutual_action_plan": null,
+  "enable_content": true,
+  "enable_meeting": false,
+  "enable_messaging": true,
+  "share_type": "",
+  "share_tool": null,
+  "template_id": null,
+  "enable_collaboration": null,
+  "updateAssociation": false
+}
