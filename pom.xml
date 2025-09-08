@@ -18,6 +18,13 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>2.27.0</version>
+            <scope>test</scope>
+        </dependency>
+
         <!-- REST Assured -->
         <dependency>
             <groupId>io.rest-assured</groupId>
@@ -53,6 +60,7 @@
 
     <build>
         <plugins>
+
             <!-- Maven Surefire Plugin for running TestNG -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -67,6 +75,7 @@
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
+
 
             <!-- Compiler Plugin -->
             <plugin>
