@@ -24,7 +24,37 @@
             <version>2.27.0</version>
             <scope>test</scope>
         </dependency>
+        <!-- RestAssured -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>5.4.0</version>
+            <scope>test</scope>
+        </dependency>
 
+        <!-- TestNG -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.10.2</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Cucumber Java -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>7.14.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Cucumber TestNG -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>7.14.0</version>
+            <scope>test</scope>
+        </dependency>
         <!-- REST Assured -->
         <dependency>
             <groupId>io.rest-assured</groupId>
@@ -56,6 +86,41 @@
             <version>${allure.version}</version>
             <scope>test</scope>
         </dependency>
+
+            <!-- Cucumber with TestNG -->
+            <dependency>
+                <groupId>io.cucumber</groupId>
+                <artifactId>cucumber-testng</artifactId>
+                <version>7.14.0</version>
+                <scope>test</scope>
+            </dependency>
+
+            <!-- Cucumber Java -->
+            <dependency>
+                <groupId>io.cucumber</groupId>
+                <artifactId>cucumber-java</artifactId>
+                <version>7.14.0</version>
+                <scope>test</scope>
+            </dependency>
+
+            <!-- RestAssured -->
+            <dependency>
+                <groupId>io.rest-assured</groupId>
+                <artifactId>rest-assured</artifactId>
+                <version>5.4.0</version>
+                <scope>test</scope>
+            </dependency>
+
+            <!-- TestNG -->
+            <dependency>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+                <version>7.10.2</version>
+                <scope>test</scope>
+            </dependency>
+
+
+
     </dependencies>
 
     <build>
